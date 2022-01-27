@@ -3,7 +3,7 @@
  * This might form part of a larger application such
  * as a optical shop, for instance.
  *
- * @author (Insert name of group member 1)
+ * @author (Laith AL-Halabi)
  * @author (Fuaad Islam )
  * @author (Insert name of group member 3)
  * 
