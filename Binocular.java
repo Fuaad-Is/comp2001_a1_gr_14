@@ -4,7 +4,7 @@
  * as a optical shop, for instance.
  *
  * @author (Insert name of group member 1)
- * @author (Insert name of group member 2)
+ * @author (Fuaad Islam )
  * @author (Insert name of group member 3)
  * 
  * @version (Insert today's date here.)
@@ -28,4 +28,20 @@ public class Binocular
     }
 
     // Add the methods here ...
+    
+    public String getModel()
+    {
+        return model;
+    }
+    
+    public int getBinocularPrice()
+    {
+        return price;
+    }
+    
+    public int getFocusDistance()
+    {
+        return closeFocusDistance;
+    }
+    
 }
