@@ -60,18 +60,30 @@ public class Binocular
     }
     
 
+    /**
+     * Mutator method for Diameter
+     */
     public void set_diameter(int my_diam){
         diameter = my_diam;
     }
+    /**
+     * Mutator method for Magnification
+     */
     public void set_magnification(int my_mag){
         magnification = my_mag;
         
         
     }
+    /**
+     * Accessor method for Diameter
+     */
     int get_diameter(){
         return diameter;
         
     }
+    /**
+     * Accessor method for magnification
+     */
     int get_magnification(){
         return magnification;
         
