@@ -17,6 +17,7 @@ public class Binocular
     private int closeFocusDistance;
     private int diameter;
     private int magnification;
+    private String Owner;
 
 
     /**
@@ -61,4 +62,10 @@ public class Binocular
     int get_magnification(){
         return magnification;
     }
+    void change_owner(String input_Owner){
+        Owner = input_Owner;
+        
+        
+    }
 }
+
