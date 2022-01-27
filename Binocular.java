@@ -67,5 +67,8 @@ public class Binocular
         
         
     }
+    String get_owner(){
+        return Owner;
+    }
 }
 
