@@ -17,6 +17,7 @@ public class Binocular
     private int closeFocusDistance;
     private int diameter;
     private int magnification;
+    private boolean imageStabilization; 
 
 
     /**
@@ -60,5 +61,14 @@ public class Binocular
     }
     int get_magnification(){
         return magnification;
+    }
+    public boolean imageStabilization(){
+        
+        return imageStabilization;
+        
+    }
+    public boolean getimageStabilization()
+    {
+        return imageStabilization;
     }
 }
