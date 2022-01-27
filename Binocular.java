@@ -83,5 +83,15 @@ public class Binocular
     
     }
     
+    
+    public void printBinocularInfo(){
+        System.out.println("Model: " + model);
+        System.out.println("Price: " + price);
+        System.out.println("Magnification: " + magnification);
+        System.out.println("Diameter: " + diameter);
+        System.out.println("Stablization: " + imageStabilization);
+        System.out.println("Owner: " + Owner);
+    }
+    
 }
 
