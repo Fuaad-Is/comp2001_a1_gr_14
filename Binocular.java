@@ -7,7 +7,7 @@
  * @author (Fuaad Islam )
  * @author (Cian Waterhouse)
  * 
- * @version (Insert today's date here.)
+ * @version (01/27/2022)
  */
 public class Binocular
 {
