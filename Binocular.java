@@ -18,6 +18,8 @@ public class Binocular
     private int diameter;
     private int magnification;
     private boolean imageStabilization; 
+    private String Owner;
+
 
 
     /**
@@ -61,14 +63,20 @@ public class Binocular
     }
     int get_magnification(){
         return magnification;
-    }
-    public boolean imageStabilization(){
-        
-        return imageStabilization;
         
     }
     public boolean getimageStabilization()
     {
         return imageStabilization;
     }
+    void change_owner(String input_Owner){
+        Owner = input_Owner;
+        
+        
+    }
+    String get_owner(){
+        return Owner;
+
+    }
 }
+
