@@ -49,10 +49,10 @@ public class Binocular
     {
         return closeFocusDistance;
     }
-    void set_diameter(int my_diam){
+    public void set_diameter(int my_diam){
         diameter = my_diam;
     }
-    void set_magnification(int my_mag){
+    public void set_magnification(int my_mag){
         magnification = my_mag;
         
         
