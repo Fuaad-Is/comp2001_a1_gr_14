@@ -65,7 +65,8 @@ public class Binocular
         return magnification;
         
     }
-
+    
+    
     public boolean getimageStabilization()
     {
         return imageStabilization;
@@ -93,10 +94,21 @@ public class Binocular
         System.out.println("Owner: " + Owner);
     }
     
+    //This method prints-out each method and the author of that particular method 
+    //Each method is in a different line followed by the authors name
     public void authorInfo(){
-        System.out.println();
-        System.out.println();
-        System.out.println();
+        System.out.println("Accessor method for model: Fuaad");
+        System.out.println("Accessor method for price: Fuaad");
+        System.out.println("Accessor method for closeFocusDistance: Fuaad");
+        System.out.println("Accessor method for the magnification(int): Cian");
+        System.out.println("Accessor method for the diameter(int): Cian");
+        System.out.println("Mutator method to set magnification: Cian");
+        System.out.println("Mutator method to set diameter: Cian");
+        System.out.println("Accessor method for imageStabilization(boolean): Laith");
+        System.out.println("Accessor method for owner: Cian");
+        System.out.println("Mutator method 'changeOwner' to change th owner: Cian");
+        System.out.println("Method printBinocularInfo, which prints Model, Price, Magnification, Diameter, imageStabilization and Owner: Fuaad");
+        System.out.println("Method authorInfo that prints out the author for each implemented method: Laith");
     }
 }
 
