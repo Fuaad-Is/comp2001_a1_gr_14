@@ -74,5 +74,13 @@ public class Binocular
 
     
     }
+    void change_owner(String input_Owner){
+        Owner = input_Owner;
+        
+        
+    }
+    String get_owner(){
+        return Owner;
+    }
 }
 
