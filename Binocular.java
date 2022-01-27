@@ -128,10 +128,10 @@ public class Binocular
         System.out.println("Accessor method for the magnification(int): Cian");
         System.out.println("Accessor method for the diameter(int): Cian");
         System.out.println("Mutator method to set magnification: Cian");
-        System.out.println("Mutator method to set diameter: Cian");
+        System.out.println("Mutator method to set the diameter: Cian");
         System.out.println("Accessor method for imageStabilization(boolean): Laith");
         System.out.println("Accessor method for owner: Cian");
-        System.out.println("Mutator method 'changeOwner' to change th owner: Cian");
+        System.out.println("Mutator method 'changeOwner' to change the owner: Cian");
         System.out.println("Method printBinocularInfo, which prints Model, Price, Magnification, Diameter, imageStabilization and Owner: Fuaad");
         System.out.println("Method authorInfo that prints out the author for each implemented method: Laith");
     }
