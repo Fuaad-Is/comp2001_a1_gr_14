@@ -17,10 +17,8 @@ public class Binocular
     private int closeFocusDistance;
     private int diameter;
     private int magnification;
-    private int imageStabilization; 
     private String Owner;
-   
-
+  
     /**
      * Set the model, price and focus fields when this object
      * is constructed.
@@ -65,11 +63,6 @@ public class Binocular
         
     }
     
-    public int getimageStabilization()
-    {
-        return imageStabilization;
-    }
-    
     void change_owner(String input_Owner){
         Owner = input_Owner;
         
@@ -80,6 +73,4 @@ public class Binocular
         return Owner;
 
     }
-    
 }
-
