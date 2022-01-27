@@ -18,7 +18,7 @@ public class Binocular
     private int diameter;
     private int magnification;
     private String Owner;
-  
+
     /**
      * Set the model, price and focus fields when this object
      * is constructed.
@@ -62,13 +62,12 @@ public class Binocular
         return magnification;
         
     }
-    
+
     void change_owner(String input_Owner){
         Owner = input_Owner;
         
         
     }
-    
     String get_owner(){
         return Owner;
 
