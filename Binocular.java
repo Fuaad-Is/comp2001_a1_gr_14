@@ -19,6 +19,7 @@ public class Binocular
     private int magnification;
     private String Owner;
 
+
     /**
      * Set the model, price and focus fields when this object
      * is constructed.
@@ -72,4 +73,6 @@ public class Binocular
         return Owner;
 
     }
+    
 }
+
