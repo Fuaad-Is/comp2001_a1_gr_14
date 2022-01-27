@@ -93,5 +93,10 @@ public class Binocular
         System.out.println("Owner: " + Owner);
     }
     
+    public void authorInfo(){
+        System.out.println();
+        System.out.println();
+        System.out.println();
+    }
 }
 
