@@ -15,6 +15,9 @@ public class Binocular
     private String model;
     private int price;
     private int closeFocusDistance;
+    private int diameter;
+    private int magnification;
+
 
     /**
      * Set the model, price and focus fields when this object
@@ -43,5 +46,19 @@ public class Binocular
     {
         return closeFocusDistance;
     }
-    
+    void set_diameter(int my_diam){
+        diameter = my_diam;
+    }
+    void set_magnification(int my_mag){
+        magnification = my_mag;
+        
+        
+    }
+    int get_diameter(){
+        return diameter;
+        
+    }
+    int get_magnification(){
+        return magnification;
+    }
 }
