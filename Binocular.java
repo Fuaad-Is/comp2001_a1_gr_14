@@ -35,32 +35,55 @@ public class Binocular
 
     // Add the methods here ...
     
+    /**
+     * Accessor method for model
+     */
     public String getModel()
     {
         return model;
     }
     
+    /**
+     * Accessor method for price
+     */
     public int getBinocularPrice()
     {
         return price;
     }
     
+    /**
+     * Accessor method for closeFocusDistance
+     */
     public int getFocusDistance()
     {
         return closeFocusDistance;
     }
+    
+
+    /**
+     * Mutator method for Diameter
+     */
     public void set_diameter(int my_diam){
         diameter = my_diam;
     }
+    /**
+     * Mutator method for Magnification
+     */
     public void set_magnification(int my_mag){
         magnification = my_mag;
         
         
     }
+    /**
+     * Accessor method for Diameter
+     */
     int get_diameter(){
         return diameter;
         
     }
+    /**
+     * Accessor method for magnification
+     */
     int get_magnification(){
         return magnification;
         
@@ -84,7 +107,9 @@ public class Binocular
     
     }
     
-    
+    /**
+     * Method to print binocular information. 
+     */
     public void printBinocularInfo(){
         System.out.println("Model: " + model);
         System.out.println("Price: " + price);
