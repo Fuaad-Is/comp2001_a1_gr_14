@@ -17,6 +17,7 @@ public class Binocular
     private int closeFocusDistance;
     private int diameter;
     private int magnification;
+    private boolean imageStabilization; 
     private String Owner;
 
 
@@ -24,11 +25,12 @@ public class Binocular
      * Set the model, price and focus fields when this object
      * is constructed.
      */
-    public Binocular(String binocularModel, int binocularPrice,int binocularFocus)
+    public Binocular(String binocularModel, int binocularPrice,int binocularFocus,boolean imgStabilization)
     {
         model = binocularModel;
         price = binocularPrice;
         closeFocusDistance = binocularFocus;
+        imageStabilization = imgStabilization;
     }
 
     // Add the methods here ...
@@ -64,6 +66,12 @@ public class Binocular
         
     }
 
+    public boolean getimageStabilization()
+    {
+        return imageStabilization;
+    }
+    
+    
     void change_owner(String input_Owner){
         Owner = input_Owner;
         
